@@ -4,7 +4,7 @@ metadata:
   name: highway-animation
   namespace: highway-animation
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: highway-animation
@@ -21,7 +21,8 @@ spec:
         env:
         - name: POD_COUNT
 
-          value: "0" 
+          value: "1" 
+
 
 
 
